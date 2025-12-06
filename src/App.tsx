@@ -32,7 +32,7 @@ export default function App() {
       <div id="conclusion" className="bg-[#000000]">
         <Conclusion />
       </div>
-      <div id="team" className="bg- [#2A2A2A]">
+      <div id="team" className="bg-[#2A2A2A]">
         <Team />
       </div>
     </div>
