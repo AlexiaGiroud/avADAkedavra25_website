@@ -1,22 +1,22 @@
-import imgBackground from "figma:asset/51124e77e3c2f96afd7eb1dc6df942843a3a2cb5.png";
-import imgSingleCell from "figma:asset/93be32fb021fefefaa0ce0e541b1371082525cff.png";
-import imgRawData from "figma:asset/588015d29ff2c2de82d1f842716b45efe1d6eda2.png";
+import imgWhoIsIn from "../assets/who_is_in_dataset.png";
+import imgSingleCell from "../assets/what_is_in_a_single_cell_analysis.png";
+import imgRawData from "../assets/from_raw_data_to_insights.png";
 
 const dataSubsections = [
   {
     title: "Who is in the dataset?",
     color: "#C07DFF",
-    image: null,
+    image: imgWhoIsIn,
   },
   {
     title: "What is in a Single Cell Analysis?",
     color: "#C07DFF",
-    image: null,
+    image: imgSingleCell,
   },
   {
     title: "From Raw Data into Insights?",
     color: "#C07DFF",
-    image: null,
+    image: imgRawData,
     subtopics: [
       "From Raw Data into Insights",
       "CellPhone DB",
@@ -48,7 +48,7 @@ export function DataSection() {
                 <div
                   className="absolute inset-0 opacity-30"
                   style={{
-                    backgroundImage: `url(${imgBackground})`,
+                    backgroundImage: `url(${imgWhoIsIn})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                   }}
