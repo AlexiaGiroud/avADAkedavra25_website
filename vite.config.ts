@@ -4,6 +4,8 @@
   import path from 'path';
 
   export default defineConfig({
+    base: '/avADAkedavra25_website/',
+
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
