@@ -87,7 +87,7 @@ export function DataSection() {
                   >
                     <iframe
                       src={`${import.meta.env.BASE_URL}${url}`}
-                      className="w-full h-full border-0 bg-white"
+                      className="w-full h-[10000px] border-0 bg-white"
                       title={`${section.title} - Figure ${i + 1}`}
                     />
                   </div>
