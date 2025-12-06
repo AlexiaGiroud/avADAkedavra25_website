@@ -83,11 +83,7 @@ export function DataSection() {
                 section.iframeUrls.map((url, i) => (
                   <div
                     key={i}
-                    className="w-full h-[800px] rounded-2xl overflow-hidden"
-                    style={{
-                      borderWidth: "2px",
-                      borderColor: section.color,
-                    }}
+                    className="w-full h-[1000px] rounded-2xl overflow-hidden"
                   >
                     <iframe
                       src={`${import.meta.env.BASE_URL}${url}`}
@@ -98,11 +94,7 @@ export function DataSection() {
                 ))
               ) : section.iframeUrl ? (
                 <div
-                  className="w-full h-[800px] rounded-2xl overflow-hidden"
-                  style={{
-                    borderWidth: "2px",
-                    borderColor: section.color,
-                  }}
+                  className="w-full h-[1000px] rounded-2xl overflow-hidden"
                 >
                   <iframe
                     src={`${import.meta.env.BASE_URL}${section.iframeUrl}`}
