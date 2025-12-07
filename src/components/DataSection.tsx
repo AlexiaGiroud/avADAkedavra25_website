@@ -49,7 +49,7 @@ export function DataSection() {
                 <div
                   className="absolute inset-0 opacity-30"
                   style={{
-                    backgroundImage: `url(${imgWhoIsIn})`,
+                    backgroundImage: `url(${section.image})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                   }}
@@ -111,18 +111,9 @@ export function DataSection() {
                     backgroundColor: "#1A1A1A",
                   }}
                 >
-                  {section.image ? (
-                    <img
-                      src={section.image}
-                      alt={section.title}
-                      className="w-full h-full object-contain rounded-xl"
-                    />
-                  ) : (
-                    <p className="text-gray-400 text-center">
-                      [Visualization placeholder for{" "}
-                      {section.title}]
-                    </p>
-                  )}
+                  <p className="text-gray-400 text-center">
+                    Relevant figures will be there
+                  </p>
                 </div>
               )}
             </div>
