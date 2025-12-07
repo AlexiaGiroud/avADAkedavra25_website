@@ -97,15 +97,10 @@ export function DataSection() {
               <div className="md:w-3/4 space-y-8">
                 {section.figures.length > 0 ? (
                   section.figures.map((figure, figIndex) => (
-                    <iframe
-                      key={figIndex}
-                      src={figure.src}
-                      className="w-full h-[400px] lg:h-[500px] border-0"
-                      title={figure.title}
-                      style={{
-                        background: 'transparent',
-                      }}
-                    />
+                    <div key={figIndex} className="rounded-xl p-8 min-h-[300px] flex flex-col items-center justify-center bg-[#1A1A1A]" style={{ borderWidth: '2px', borderColor: section.color }}>
+                      <p className="text-gray-300 text-lg mb-4">{figure.title} (interactive figure available)</p>
+                      <a href={`/avADAkedavra25_website/${figure.src}`} target="_blank" rel="noopener noreferrer" className="inline-block bg-[#C07DFF] text-white px-4 py-2 rounded-md">Open figure in new tab</a>
+                    </div>
                   ))
                 ) : (
                   <div 

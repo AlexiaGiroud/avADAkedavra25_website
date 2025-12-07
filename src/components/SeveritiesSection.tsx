@@ -49,12 +49,10 @@ export function SeveritiesSection() {
 
       {/* 6.4 Cell-type Proportions per Severity */}
       <div className="space-y-6">
-        <iframe
-          src="stacked_celltype_by_status_plotly.html"
-          className="w-full h-[500px] lg:h-[600px] border-0 rounded-xl"
-          title="Cell-type Proportions"
-          style={{ background: 'transparent' }}
-        />
+        <div className="rounded-xl p-12 min-h-[300px] flex flex-col items-center justify-center bg-[#1A1A1A]" style={{ borderWidth: '2px', borderColor: '#C07DFF' }}>
+          <p className="text-gray-300 text-lg mb-4">Cell-type Proportions interactive figure (not embedded).</p>
+          <a href="/avADAkedavra25_website/stacked_celltype_by_status_plotly.html" target="_blank" rel="noopener noreferrer" className="inline-block bg-[#C07DFF] text-white px-4 py-2 rounded-md">Open figure in new tab</a>
+        </div>
         <div className="bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30">
           <p className="text-gray-300 text-lg">
             📝 Placeholder text for cell-type proportions
