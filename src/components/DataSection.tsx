@@ -31,6 +31,12 @@ export function DataSection() {
   return (
     <section className="px-6 py-16">
       <div className="max-w-7xl mx-auto space-y-16">
+        <h2
+          className="text-3xl md:text-4xl text-white uppercase tracking-tight"
+          style={{ fontWeight: 700 }}
+        >
+          Data
+        </h2>
         {dataSubsections.map((section, index) => (
           <div
             key={index}
