@@ -95,6 +95,7 @@ export function DataSection() {
                       src={`${import.meta.env.BASE_URL}${url}`}
                       className="w-full h-[1000px] border-0 bg-white"
                       title={`${section.title} - Figure ${i + 1}`}
+                      loading="lazy"
                     />
                   </div>
                 ))
@@ -106,6 +107,7 @@ export function DataSection() {
                     src={`${import.meta.env.BASE_URL}${section.iframeUrl}`}
                     className="w-full h-full border-0 bg-white"
                     title={section.title}
+                    loading="lazy"
                   />
                 </div>
               ) : (

@@ -5,6 +5,7 @@ const navItems = [
   { label: 'Home', href: '#home' },
   { label: 'Key Findings', href: '#findings' },
   { label: 'Methodology', href: '#methodology' },
+  { label: 'UMAP', href: '#umap' },
   { label: 'Data', href: '#data' },
   { label: 'Resources', href: '#resources' },
   { label: 'Team', href: '#team' },
