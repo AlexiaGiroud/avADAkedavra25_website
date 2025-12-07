@@ -86,7 +86,7 @@ export function DataSection() {
 
             {/* Right column - 75% - Content */}
             <div className="md:w-3/4 flex flex-col gap-8">
-              {section.iframeUrls ? (
+              {section.iframeUrls && section.iframeUrls.length ? (
                 section.iframeUrls.map((url, i) => (
                   <div key={i} className="w-full rounded-2xl">
                     <AutoIframe
@@ -96,14 +96,6 @@ export function DataSection() {
                     />
                   </div>
                 ))
-              ) : section.iframeUrl ? (
-                <div className="w-full rounded-2xl">
-                  <AutoIframe
-                    src={`${import.meta.env.BASE_URL}${section.iframeUrl}`}
-                    className="w-full border-0 bg-white"
-                    title={section.title}
-                  />
-                </div>
               ) : (
                 <div
                   className="rounded-2xl p-8 min-h-[400px] flex items-center justify-center"
