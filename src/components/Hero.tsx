@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import imgHero1 from "../assets/hero.png";
 
 function Content() {
   return (
@@ -11,28 +12,13 @@ function Content() {
 }
 
 export function Hero() {
-  // Prefer `public/hero.png` served at the repo base; load it immediately and
-  // fall back to the built asset if loading fails. This avoids waiting for an
-  // async probe and makes the hero visible immediately when `public/hero.png`
-  // is present.
-  const candidate = '/avADAkedavra25_website/hero.png';
-  const fallback = '/avADAkedavra25_website/assets/abae2ce4402ffd267d03df7476134886e0fe5379-DHwVpZ4N.png';
-  const [src, setSrc] = useState<string>(candidate);
-
   return (
-    <section className="relative w-full h-screen min-h-[500px] max-h-[900px]" data-name="Hero 1">
-      <img
-        alt=""
-        className="absolute inset-0 w-full h-full object-cover pointer-events-none"
-        src={src}
-        onError={() => {
-          if (src !== fallback) setSrc(fallback);
-        }}
-      />
-      <div className="relative flex items-end h-full px-4 md:px-12 lg:px-16 pb-8 md:pb-12 lg:pb-16">
-        <div className="w-full max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-end gap-4">
+    <section className="relative w-full h-screen min-h-[600px]" data-name="Hero 1">
+      <img alt="" className="absolute inset-0 w-full h-full object-cover pointer-events-none" src={imgHero1} />
+      <div className="relative flex items-end h-full px-6 md:px-12 lg:px-16 pb-12 md:pb-16">
+        <div className="w-full max-w-7xl mx-auto flex justify-between items-end">
           <Content />
-          <p className="text-xs text-white/60 mb-1 md:mb-2 whitespace-nowrap">
+          <p className="text-xs text-white/60 mb-2">
             AI generated image
           </p>
         </div>
