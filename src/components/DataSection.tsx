@@ -46,7 +46,7 @@ export function DataSection() {
             {/* Left column - 25% - Title */}
             <div className="md:w-1/4 flex items-start">
               <div
-                className="relative overflow-hidden rounded-2xl p-6 w-full min-h-[400px] flex flex-col justify-center"
+                className="relative overflow-hidden rounded-2xl p-6 w-full min-h-[400px] flex flex-col justify-center md:sticky md:top-20 md:z-10"
                 style={{
                   backgroundColor: `${section.color}20`,
                   borderWidth: "2px",
