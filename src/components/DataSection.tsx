@@ -39,14 +39,11 @@ export function DataSection() {
           Data
         </h2>
         {dataSubsections.map((section, index) => (
-          <div
-            key={index}
-            className="flex flex-col md:flex-row gap-8"
-          >
-            {/* Left column - 25% - Title */}
-            <div className="md:w-1/4 flex items-start">
+          <div key={index} className="flex flex-col md:flex-row gap-8">
+            {/* Left column - 20% - Title (sticky square) */}
+            <div className="md:w-1/5 flex items-start">
               <div
-                className="relative overflow-hidden rounded-2xl p-6 w-full min-h-[400px] flex flex-col justify-center"
+                className="relative w-full md:sticky md:top-24 rounded-2xl p-6 aspect-square flex flex-col justify-center overflow-visible"
                 style={{
                   backgroundColor: `${section.color}20`,
                   borderWidth: "2px",
@@ -84,8 +81,8 @@ export function DataSection() {
               </div>
             </div>
 
-            {/* Right column - 75% - Content */}
-            <div className="md:w-3/4 flex flex-col gap-8">
+            {/* Right column - 80% - Content */}
+            <div className="md:w-4/5 flex flex-col gap-8">
               {section.iframeUrls ? (
                 section.iframeUrls.map((url, i) => (
                   <div key={i} className="w-full rounded-2xl">
