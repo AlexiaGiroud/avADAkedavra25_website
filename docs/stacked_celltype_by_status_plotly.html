@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stacked Celltype Plot — placeholder</title>
+    <script src="https://cdn.plot.ly/plotly-3.3.0.min.js" crossorigin="anonymous"></script>
+    <style>html,body{height:100%;margin:0;background:#1A1A1A;color:#fff}#plot{width:100%;height:100%;min-height:600px}</style>
+  </head>
+  <body>
+    <div id="plot"></div>
+    <script>
+      // Simple stacked bar example
+      const trace1 = {x:['A','B','C'],y:[10,15,12],name:'Type1',type:'bar'};
+      const trace2 = {x:['A','B','C'],y:[5,7,3],name:'Type2',type:'bar'};
+      const layout = {barmode:'stack',title:'Stacked celltype placeholder',paper_bgcolor:'#1A1A1A',plot_bgcolor:'#1A1A1A',font:{color:'#E5E7EB'}};
+      Plotly.newPlot('plot',[trace1,trace2],layout,{responsive:true});
+    </script>
+  </body>
+</html>
