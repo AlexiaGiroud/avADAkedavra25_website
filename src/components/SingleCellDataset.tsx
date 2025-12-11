@@ -37,18 +37,29 @@ export function SingleCellDataset() {
       </div>
 
       {/* 5.3 UMAP (Initial Clustering) */}
-      <div className="space-y-6">
-        <div className="bg-[#2A2A2A] rounded-xl p-12 border-2 border-[#C07DFF]/30 flex items-center justify-center min-h-[400px]">
-          <p className="text-gray-400 text-xl text-center">
-            📊 Place for UMAP colored by initial clustering
-          </p>
-        </div>
-        <div className="bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30">
-          <p className="text-gray-300 text-lg">
-            📝 Text placeholder for UMAP insights
-          </p>
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+      {/* LEFT – UMAP (no purple background) */}
+      <div className="lg:col-span-2 rounded-3xl p-0">
+        <div className="bg-[#1A1A1A] rounded-2xl overflow-hidden">
+          <iframe 
+            src="https://alexiagiroud.github.io/avADAkedavra25_website/umap_complete_website.html" 
+            className="w-full h-[850px] border-0"
+            title="UMAP colored by initial clustering"
+            style={{ background: 'transparent' }}
+          />
         </div>
       </div>
+
+      {/* RIGHT – Text card (keeps purple accents) */}
+      <div className="lg:col-span-1 bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30 flex items-center">
+        <p className="text-gray-300 text-lg">
+          📝 Text placeholder for UMAP insights
+        </p>
+      </div>
+
+      </div>
+
 
       {/* 5.4 Dotplot (Gene Expression) */}
       <div className="space-y-6">
