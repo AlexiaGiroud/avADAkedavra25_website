@@ -36,30 +36,38 @@ export function SeveritiesSection() {
       <div className="space-y-6">
         <iframe
           src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/umap_website.html"
-          className="w-full h-[500px] lg:h-[600px] border-0 rounded-xl"
-          title="UMAP per Severity"
-          style={{ background: 'transparent' }}
+          className="w-full"
+          style={{ 
+            height: "620px",   // Adjust here the height to fit your HTML content
+            border: "none",
+            background: "transparent"
+          }}
+          title="Dotplot: gene expression"
         />
+        </div>
         <div className="bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30">
           <p className="text-gray-300 text-lg">
             📝 Placeholder text for UMAP per severity insights
           </p>
-        </div>
       </div>
 
       {/* 6.4 Cell-type Proportions per Severity */}
       <div className="space-y-6">
         <iframe
           src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/stacked_celltype_by_status_plotly.html"
-          className="w-full h-[500px] lg:h-[600px] border-0 rounded-xl"
-          title="Cell-type Proportions"
-          style={{ background: 'transparent' }}
+          className="w-full"
+          style={{ 
+            height: "620px",   // Adjust here the height to fit your HTML content
+            border: "none",
+            background: "transparent"
+          }}
+          title="Dotplot: gene expression"
         />
+        </div>
         <div className="bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30">
           <p className="text-gray-300 text-lg">
             📝 Placeholder text for cell-type proportions
           </p>
-        </div>
       </div>
 
       {/* 6.5 Next Steps Row */}
