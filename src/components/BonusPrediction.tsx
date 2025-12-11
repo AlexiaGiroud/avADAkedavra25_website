@@ -66,7 +66,7 @@ export function BonusPrediction() {
         <div className="bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#D61C8C]/30 min-h-[450px] flex justify-center items-center">
           {tab === "matrix" && (
             <iframe
-              src="/figures/confusion_matrix_rf.html"
+              src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/confusion_matrix_rf.html"
               title="Confusion Matrix"
               className="w-full h-[450px] rounded-lg border border-[#D61C8C]/20"
             ></iframe>
@@ -74,7 +74,7 @@ export function BonusPrediction() {
 
           {tab === "features" && (
             <iframe
-              src="/figures/feature_importance_rf.html"
+              src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/feature_importance_rf.html"
               title="Feature Importance"
               className="w-full h-[450px] rounded-lg border border-[#D61C8C]/20"
             ></iframe>
