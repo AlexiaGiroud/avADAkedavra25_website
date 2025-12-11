@@ -42,7 +42,7 @@ export function SeveritiesSection() {
             border: "none",
             background: "transparent"
           }}
-          title="Dotplot: gene expression"
+          title="UMAP per severity"
         />
         </div>
         <div className="bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30">
@@ -61,7 +61,7 @@ export function SeveritiesSection() {
             border: "none",
             background: "transparent"
           }}
-          title="Dotplot: gene expression"
+          title="Cell-type proportions per severity"
         />
         </div>
         <div className="bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30">

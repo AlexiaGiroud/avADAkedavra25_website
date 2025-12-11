@@ -68,7 +68,13 @@ export function BonusPrediction() {
             <iframe
               src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/confusion_matrix_rf.html"
               title="Confusion Matrix"
-              className="w-full h-[450px] rounded-lg border border-[#D61C8C]/20"
+              style={{ 
+                width: "900px",        // <--- adapte ici
+                maxWidth: "100%",      // <--- reste responsive
+                height: "670px",   // Adjust here the height to fit your HTML content
+                border: "none",
+                background: "transparent"
+              }}
             ></iframe>
           )}
 
@@ -76,7 +82,13 @@ export function BonusPrediction() {
             <iframe
               src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/feature_importance_rf.html"
               title="Feature Importance"
-              className="w-full h-[450px] rounded-lg border border-[#D61C8C]/20"
+              style={{ 
+                width: "900px",        // <--- adapte ici
+                maxWidth: "100%",      // <--- reste responsive
+                height: "650px",   // Adjust here the height to fit your HTML content
+                border: "none",
+                background: "transparent"
+              }}
             ></iframe>
           )}
         </div>
