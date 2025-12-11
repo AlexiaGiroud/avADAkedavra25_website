@@ -27,7 +27,7 @@ export function SingleCellDataset() {
         <div className="bg-[#1A1A1A] rounded-2xl overflow-hidden">
           <iframe
             src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/treemap_mode_mapped.html"
-            className="w-full h-[1200px] border-0"
+            className="w-full h-full border-0"
             title="Treemap: mode mapped"
             style={{ background: 'transparent' }}
           />
