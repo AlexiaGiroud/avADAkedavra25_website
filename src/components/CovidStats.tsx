@@ -139,7 +139,7 @@ export function CovidStats() {
             <div className="text-left text-xs text-gray-500 mt-4">
               <strong>References</strong>
               <ol className="ml-4 list-decimal">
-                <li>World Health Organization. WHO COVID-19 dashboard. https://data.who.int/dashboards/covid19/cases?n=o (accessed 2025). No DOI available.</li>
+                <li>World Health Organization. WHO COVID-19 dashboard. https://data.who.int/dashboards/covid19/cases?n=o (accessed 2025).</li>
                 <li>Normile, D. (2020). Coronavirus cases may be higher than reported. Nature News. doi:10.1038/d41586-020-00822-x.</li>
                 <li>Schulte-Schrepping, J. et al. (2021). Severe COVID-19 is marked by a dysregulated myeloid cell compartment. Nature Medicine. doi:10.1038/s41591-021-01329-2.</li>
               </ol>
