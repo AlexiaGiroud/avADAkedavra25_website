@@ -24,7 +24,13 @@ export function SingleCellDataset() {
 
       <div className="mt-6 bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#444]/20">
         <p className="text-gray-300 text-sm md:text-base">
-          To explore this question, we relied on a rich, large-scale dataset combining single-cell transcriptomic data, surface proteomic profiles, and T and B lymphocyte antigen receptor analyses. The dataset includes over 780,000 peripheral blood mononuclear cells collected from a cross-sectional cohort of 143 patients spanning nine levels of COVID-19 severity. For each cell, detailed information is available not only about the cell itself, but also about the patient it came from, including age, sex, smoking status, disease onset, and clinical severity.
+          To explore this question, we relied on a rich, large-scale dataset combining single-cell transcriptomic data, surface proteomic profiles, and T and B lymphocyte antigen receptor analyses.
+        </p>
+        <p className="text-gray-300 text-sm md:text-base mt-3">
+          The dataset includes over 780,000 peripheral blood mononuclear cells collected from a cross-sectional cohort of 143 patients spanning nine levels of COVID-19 severity.
+        </p>
+        <p className="text-gray-300 text-sm md:text-base mt-3">
+          For each cell, detailed information is available not only about the cell itself, but also about the patient it came from, including age, sex, smoking status, disease onset, and clinical severity.
         </p>
       </div>
 
@@ -32,9 +38,20 @@ export function SingleCellDataset() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* LEFT – Text card (keeps purple accents) */}
         <div className="lg:col-span-1 bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30 flex items-center">
-          <p className="text-gray-300 text-lg">
-            📝 Explanation about the Treemap visualization.
-          </p>
+          <div>
+            <p className="text-gray-300 text-lg">
+              As a first step, we focused on identifying immune cell types, since different populations play distinct roles and are activated at specific stages of an immune response. Understanding which immune cells are present and active can therefore provide valuable insight into disease progression.
+            </p>
+            <p className="text-gray-300 text-lg mt-3">
+              The dataset offers two levels of cellular clustering: a broader, initial classification and a more detailed, fine-grained clustering, visualized in our interactive Treemap as outer and inner rectangles respectively. While the finer clustering reveals subpopulations - such as naïve CD4 cells within the larger CD4 group - the initial clustering remains a reliable representation of the overall immune landscape.
+            </p>
+            <p className="text-gray-300 text-lg mt-3">
+              Misclassifications between the two are minimal, with, for example, only 0.8% of cells labeled as B cells in the initial clustering corresponding to NKT cells in the finer analysis.
+            </p>
+            <p className="text-gray-300 text-lg mt-3">
+              Given its robustness and clarity, we decided to use the initial clustering as the foundation for our subsequent analyses.
+            </p>
+          </div>
         </div>
 
         {/* RIGHT – Treemap iframe */}
