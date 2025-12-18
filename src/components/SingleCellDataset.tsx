@@ -13,13 +13,19 @@ export function SingleCellDataset() {
           <div className="text-gray-300">Patients</div>
         </div>
         <div className="bg-[#2A2A2A] rounded-xl p-6 text-center border-2 border-[#C07DFF]/30">
-          <div className="text-4xl mb-2" style={{ color: '#C07DFF', fontWeight: 900 }}>9</div>
+          <div className="text-4xl mb-2" style={{ color: '#C07DFF', fontWeight: 900 }}>7</div>
           <div className="text-gray-300">Severities</div>
         </div>
         <div className="bg-[#2A2A2A] rounded-xl p-6 text-center border-2 border-[#F29900]/30">
-          <div className="text-4xl mb-2" style={{ color: '#F29900', fontWeight: 900 }}>XXX</div>
+          <div className="text-4xl mb-2" style={{ color: '#F29900', fontWeight: 900 }}>780k+</div>
           <div className="text-gray-300">Cells</div>
         </div>
+      </div>
+
+      <div className="mt-6 bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#444]/20">
+        <p className="text-gray-300 text-sm md:text-base">
+          To explore this question, we relied on a rich, large-scale dataset combining single-cell transcriptomic data, surface proteomic profiles, and T and B lymphocyte antigen receptor analyses. The dataset includes over 780,000 peripheral blood mononuclear cells collected from a cross-sectional cohort of 143 patients spanning nine levels of COVID-19 severity. For each cell, detailed information is available not only about the cell itself, but also about the patient it came from, including age, sex, smoking status, disease onset, and clinical severity.
+        </p>
       </div>
 
       {/* 5.2 Treemap Section */}
