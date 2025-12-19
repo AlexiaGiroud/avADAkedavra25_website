@@ -15,14 +15,14 @@ const stats: Stat[] = [
     color: '#D61C8C',
   },
   {
-    value: 40,
-    label: 'Asymptomatic Patients',
+    value: 60,
+    label: 'Asymptomatic or mild symptoms',
     suffix: '%',
     color: '#C07DFF',
   },
   {
     value: 7000000,
-    label: 'COVID-19 Deaths',
+    label: 'COVID-19 related Deaths',
     suffix: '+',
     color: '#F29900',
   },
