@@ -99,6 +99,24 @@ export function BonusPrediction() {
             📝 Analysis and interpretation of prediction results
           </p>
         </div>
+
+        {/* Widget section */}
+      <div className="space-y-6">
+
+        {/* Figure en taille originale, sans cadre */}
+        <iframe
+          src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/severity_predictor_java_widget.html"
+          className="w-full"
+          style={{ 
+            height: "430px",   // Ajuste si tu veux la taille exacte de ton HTML
+            border: "none",
+            background: "transparent"
+          }}
+          title="Fun widget"
+        />
+
+
+      </div>
       </div>
     </div>
   );
