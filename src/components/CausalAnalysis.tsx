@@ -248,7 +248,7 @@ export function CausalAnalysis() {
 
             <div className="bg-[#2A2A2A] rounded-xl p-8 border-2 border-[#F29900]/30">
               <p className="text-gray-300 text-lg leading-relaxed mb-4">
-                Research has shown that smoking increases severity, indeed cigarette smoke causes hyperinflammatory immune response and a perturbation of viral-entry genes and host-pathogen interactions (Bowsher et al., European Respiratory Journal, 2024).
+                Research has shown that smoking increases the severity of COVID symptoms. Indeed cigarette smoke causes hyperinflammatory immune response and a perturbation of viral-entry genes and host-pathogen interactions (Bowsher et al., European Respiratory Journal, 2024).
               </p>
               <p className="text-gray-300 text-lg leading-relaxed">
                 However, our cohort is overwhelmingly composed of non-smokers (90.6% in mild cases and 87.5% in severe cases), with only 3 smokers total across both groups (n=2 in mild, n=1 in severe). This extreme imbalance in smoking status distribution makes any meaningful statistical Analysis of smoking's impact on disease severity infeasible. Given the insufficient sample size of smokers, we have decided to exclude smoking status from further downstream analyses, as any conclusions drawn would lack statistical power and could be misleading.
