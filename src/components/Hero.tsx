@@ -1,4 +1,5 @@
-import imgHero1 from "figma:asset/abae2ce4402ffd267d03df7476134886e0fe5379.png";
+import React from 'react';
+import imgHero1 from '../assets/abae2ce4402ffd267d03df7476134886e0fe5379.png';
 
 function Content() {
   return (
