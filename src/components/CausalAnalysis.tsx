@@ -376,49 +376,57 @@ export function CausalAnalysis() {
         </div>
       </div>
 
-      {/* Gene Expression Rates - New layout: 50% Figure 1 & text, 50% Figure 2 & text */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* Left side: Ligands */}
-        <div className="space-y-4">
-          <div className="space-y-6">
-            <div className="flex justify-center">
+      {/* Gene Expression Rates - Ligand and Receptor subsections */}
+      <div className="space-y-12">
+        {/* Ligand gene expression rates: 60% Figure - 40% Text */}
+        <div>
+          <h4 className="text-lg text-gray-400 mb-6" style={{ fontWeight: 400 }}>
+            Ligand Gene Expression Rates
+          </h4>
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
+            {/* Figure - 60% */}
+            <div className="lg:col-span-3">
               <iframe
                 src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/exp_levels_ligands.html"
-                style={{ 
-                  width: "100%",
-                  height: "750px",   // Ajuste si tu veux la taille exacte de ton HTML
-                  border: "none",
-                  background: "transparent"
-                }}
+                className="w-full h-[600px] border-0 rounded-xl"
+                title="Ligand Gene Expression Rates"
+                style={{ background: 'transparent' }}
               />
             </div>
+
+            {/* Text - 40% */}
+            <div className="lg:col-span-2 bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30 flex items-center">
+              <p className="text-gray-300 text-sm leading-relaxed" style={{ textAlign: 'justify' }}>
+                Bars represent the percentage of cells with high expression (mean expression ≥ 1.0) for each ligand within each age group. Sample sizes (n) indicate the total number of cells analyzed per age group. P-values from chi-square tests are displayed above each plot to assess whether gene expression varies significantly with age independently of disease severity. Bar colors indicate statistical significance: purple (p &lt; 0.001, highly significant age effect), pink (p &lt; 0.01, very significant), and yellow (p ≥ 0.05, not significant). CCL5, ANXA1, TNF, TNFRSF1A and CD320 show significant age-dependent expression patterns (p &lt; 0.05), while CD99 demonstrates non-significant age effect (p = 1.000, yellow). These findings suggest that age modulates the expression of key ligands involved in cell-cell communication in severe COVID-19, potentially confounding severity-associated expression changes. Analysis performed on stratified severe COVID-19 cases only to isolate age effects from disease severity effects.
+              </p>
             </div>
-          <div className="bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30">
-            <p className="text-gray-300 text-sm leading-relaxed" style={{ textAlign: 'justify' }}>
-              Bars represent the percentage of cells with high expression (mean expression ≥ 1.0) for each ligand within each age group. Sample sizes (n) indicate the total number of cells analyzed per age group. P-values from chi-square tests are displayed above each plot to assess whether gene expression varies significantly with age independently of disease severity. Bar colors indicate statistical significance: purple (p &lt; 0.001, highly significant age effect), pink (p &lt; 0.01, very significant), and yellow (p ≥ 0.05, not significant). CCL5, ANXA1, TNF, TNFRSF1A and CD320 show significant age-dependent expression patterns (p &lt; 0.05), while CD99 demonstrates non-significant age effect (p = 1.000, yellow). These findings suggest that age modulates the expression of key ligands involved in cell-cell communication in severe COVID-19, potentially confounding severity-associated expression changes. Analysis performed on stratified severe COVID-19 cases only to isolate age effects from disease severity effects.
-            </p>
           </div>
         </div>
+        
+        <div className="h-8 lg:h-24" />
 
-        {/* Right side: Receptors */}
-        <div className="space-y-4">
-          <div className="space-y-6">
-            <div className="flex justify-center">
+        {/* Receptor gene expression rates: 40% Text - 60% Figure */}
+        <div>
+          <h4 className="text-lg text-gray-400 mb-6" style={{ fontWeight: 400 }}>
+            Receptor Gene Expression Rates
+          </h4>
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
+            {/* Text - 40% */}
+            <div className="lg:col-span-2 bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30 flex items-center">
+              <p className="text-gray-300 text-sm leading-relaxed" style={{ textAlign: 'justify' }}>
+                Bars represent the percentage of cells with high expression (mean expression ≥ 1.0) for each receptor within each age group. Sample sizes (n) indicate the total number of cells analyzed per age group. P-values from chi-square tests are displayed above each plot to assess whether gene expression varies significantly with age independently of disease severity. Bar colors indicate statistical significance: purple (p &lt; 0.001, highly significant age effect), pink (p &lt; 0.01, very significant), and yellow (p ≥ 0.05, not significant). CCR1, PILRA, FPR1, JAML and FPR2 show significant age-dependent expression patterns. These findings suggest that age modulates the expression of key receptors involved in cell-cell communication in severe COVID-19, potentially confounding severity-associated expression changes. Analysis performed on stratified severe COVID-19 cases only to isolate age effects from disease severity effects.
+              </p>
+            </div>
+
+            {/* Figure - 60% */}
+            <div className="lg:col-span-3">
               <iframe
                 src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/exp_levels_receptors.html"
-                style={{ 
-                  width: "100%",
-                  height: "750px",   // Ajuste si tu veux la taille exacte de ton HTML
-                  border: "none",
-                  background: "transparent"
-                }}
+                className="w-full h-[600px] border-0 rounded-xl"
+                title="Receptor Gene Expression Rates"
+                style={{ background: 'transparent' }}
               />
             </div>
-            </div>
-          <div className="bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30">
-            <p className="text-gray-300 text-sm leading-relaxed" style={{ textAlign: 'justify' }}>
-              Bars represent the percentage of cells with high expression (mean expression ≥ 1.0) for each ligand within each age group. Sample sizes (n) indicate the total number of cells analyzed per age group. P-values from chi-square tests are displayed above each plot to assess whether gene expression varies significantly with age independently of disease severity. Bar colors indicate statistical significance: purple (p &lt; 0.001, highly significant age effect), pink (p &lt; 0.01, very significant), and yellow (p ≥ 0.05, not significant). CCR1, PILRA, FPR1, JAML and FPR2 show significant age-dependent expression patterns. These findings suggest that age modulates the expression of key ligands involved in cell-cell communication in severe COVID-19, potentially confounding severity-associated expression changes. Analysis performed on stratified severe COVID-19 cases only to isolate age effects from disease severity effects.
-            </p>
           </div>
         </div>
       </div>
