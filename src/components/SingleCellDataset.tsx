@@ -82,7 +82,7 @@ export function SingleCellDataset() {
         <div className="flex justify-center">
           <iframe
             src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/dotplot_gene_expression.html"
-            className="w-full h-[600px] lg:h-[700px] border-0 rounded-xl"
+            className="w-full h-[700px] border-0 rounded-xl"
             title="Dotplot of Gene Expression"
             style={{ background: 'transparent' }}
           />
