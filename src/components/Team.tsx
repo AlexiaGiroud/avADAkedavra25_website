@@ -35,10 +35,10 @@ const team = [
   },
   {
     name: 'Zoé Vogler',
-    role: 'Pattern Recognition Expert',
+    role: 'Machine Learning Expert',
     cell: 'Macrophage',
     color: '#D61C8C',
-    description: 'Engulfing complexity, revealing insights',
+    description: 'Training algorithms like immune cells train memory',
     github: 'https://github.com/ZoeVogler',
   },
 ];
