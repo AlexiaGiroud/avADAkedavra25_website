@@ -354,26 +354,10 @@ export function CausalAnalysis() {
       </div>
 
       {/* Heatmap Top Interactions - Critical */}
-      <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
-        <div className="lg:col-span-3">
-          <div className="bg-[#2A2A2A] rounded-xl p-12 border-2 border-[#C07DFF]/30 flex items-center justify-center min-h-[500px]">
-              <iframe
-                src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/heatmap_Critical.html"
-                style={{ 
-                  width: "100%",
-                  height: "750px",   // Ajuste si tu veux la taille exacte de ton HTML
-                  border: "none",
-                  background: "transparent"
-                }}
-              />
-          </div>
-        </div>
-
-        <div className="lg:col-span-2 bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30 flex items-center">
-          <p className="text-gray-300 leading-relaxed" style={{ textAlign: 'justify' }}>
-            Top interaction pairs are ANXA1-FPR1, ANXA1-FPR, CD99-PILRA, CCL5-CCR1, CD320-JAML for critical patients. The vast majority of Ligand Receptor Interactions don't depend on the age of the patients. However some Ligand-Receptor interactions such as ANXA1-FPR1 or PTPRC-CD22 are greatly affected by the age of the patients.
-          </p>
-        </div>
+      <div className="bg-[#2A2A2A] rounded-xl p-8 border-2 border-[#C07DFF]/30">
+        <p className="text-gray-300 text-lg leading-relaxed" style={{ textAlign: 'justify' }}>
+          Top interaction pairs are ANXA1-FPR1, ANXA1-FPR, CD99-PILRA, CCL5-CCR1, CD320-JAML for critical patients. The vast majority of Ligand Receptor Interactions don't depend on the age of the patients. However some Ligand-Receptor interactions such as ANXA1-FPR1 or PTPRC-CD22 are greatly affected by the age of the patients.
+        </p>
       </div>
 
       {/* Gene Expression Rates - Ligand and Receptor subsections */}
