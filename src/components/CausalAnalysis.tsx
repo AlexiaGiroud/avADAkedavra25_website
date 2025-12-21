@@ -346,7 +346,7 @@ export function CausalAnalysis() {
             </div>
             </div>
           <div className="bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30 flex items-center" style={{ minHeight: '120px' }}>
-            <p className="text-gray-300 text-sm leading-relaxed" style={{ textAlign: 'justify' }}>
+            <p className="text-gray-300 leading-relaxed" style={{ textAlign: 'justify' }}>
               Scatter plots showing ligand expression versus receptor expression for select ligand-receptor pairs across patient age groups (Young: orange; Middle: pink; Old: purple). Most communication pathways remain stable between young and old patients. However, specific interactions like PTPRC-CD22 shift significantly with age, suggesting that while the immune system's general wiring stays consistent, breakdowns in these few specific signals might explain why older individuals often face more severe COVID-19 outcomes.
             </p>
           </div>
