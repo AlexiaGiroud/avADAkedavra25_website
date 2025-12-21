@@ -313,7 +313,7 @@ export function CausalAnalysis() {
           <div className="space-y-6">
             <div className="flex justify-center">
               <iframe
-                src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/cell_cell_across_age_groups.html"
+                src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/cell_cell_comm_across_age_groups.html"
                 style={{ 
                   width: "100%",
                   height: "750px",   // Ajuste si tu veux la taille exacte de ton HTML
@@ -335,7 +335,7 @@ export function CausalAnalysis() {
           <div className="space-y-6">
             <div className="flex justify-center">
               <iframe
-                src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/lr_interactions_across_age_groups.html"
+                src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/ligand_receptor_interactions_across_age_groups.html"
                 style={{ 
                   width: "100%",
                   height: "750px",   // Ajuste si tu veux la taille exacte de ton HTML
@@ -383,7 +383,7 @@ export function CausalAnalysis() {
           <div className="space-y-6">
             <div className="flex justify-center">
               <iframe
-                src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/gene_exp_ligands.html"
+                src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/exp_levels_ligands.html"
                 style={{ 
                   width: "100%",
                   height: "750px",   // Ajuste si tu veux la taille exacte de ton HTML
@@ -405,7 +405,7 @@ export function CausalAnalysis() {
           <div className="space-y-6">
             <div className="flex justify-center">
               <iframe
-                src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/gene_exp_receptors.html"
+                src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/exp_levels_receptors.html"
                 style={{ 
                   width: "100%",
                   height: "750px",   // Ajuste si tu veux la taille exacte de ton HTML

@@ -54,8 +54,8 @@ https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal
 
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/logistic_regression_forest_plot.html
 
-https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/cell_cell_across_age_groups.html
-https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/lr_interactions_across_age_groups.html
+https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/cell_cell_comm_across_age_groups.html
+https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/ligand_receptor_interactions_across_age_groups.html
 
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/heatmap_Critical.html
 
