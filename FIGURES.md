@@ -55,6 +55,8 @@ https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/cell_cell_across_age_groups.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/lr_interactions_across_age_groups.html
 
+https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/heatmap_Critical.html
+
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/gene_exp_ligands.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/gene_exp_receptors.html
 
