@@ -369,10 +369,10 @@ export function CausalAnalysis() {
             title="Comprehensive Network Analysis"
             style={{ 
                   width: "800px%",
-                  height: "1100px",   // Ajuste si tu veux la taille exacte de ton HTML
+                  height: "1100px",  
                   border: "none",
                   background: "transparent"
-                }}
+            }}
           />
         </div>
 

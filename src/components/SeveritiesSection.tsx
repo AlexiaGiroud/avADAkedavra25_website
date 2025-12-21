@@ -30,7 +30,12 @@ export function SeveritiesSection() {
             src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/umap_website.html"
             className="w-full h-[600px] lg:h-[700px] border-0 rounded-xl"
             title="UMAP per Severity"
-            style={{ background: 'transparent' }}
+            style={{ 
+              width: "100%",
+              height: "600px",   
+              border: "none",
+              background: "transparent"
+            }}
           />
         </div>
 
