@@ -115,7 +115,7 @@ export function Team() {
         <h2 className="text-4xl md:text-5xl lg:text-6xl text-white uppercase tracking-tight mb-4" style={{ fontWeight: 900 }}>
           Meet the Team
         </h2>
-        <p className="text-xl text-gray-300 text-center mb-12 max-w-2xl mx-auto">
+        <p className="text-xl text-gray-300 mb-12 max-w-6xl mx-auto">
           Each team member brings unique expertise, just like different immune cells working together
         </p>
         

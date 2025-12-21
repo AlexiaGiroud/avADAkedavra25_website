@@ -3,12 +3,11 @@ import { SeveritiesSection } from './SeveritiesSection';
 import { CellCommunication } from './CellCommunication';
 import { CausalAnalysis } from './CausalAnalysis';
 import { StatisticalAnalysis } from './StatisticalAnalysis';
-import { BonusPrediction } from './BonusPrediction';
 
 export function DataSectionNew() {
   return (
-    <section className="px-6 py-16">
-      <div className="max-w-7xl mx-auto">
+    <section className="px-6 py-16 bg-[#000000]">
+      <div className="max-w-6xl mx-auto">
         {/* Main Section Title */}
         <h2 className="text-4xl md:text-5xl lg:text-6xl text-white uppercase tracking-tight mb-16" style={{ fontWeight: 900 }}>
           Data
@@ -21,7 +20,6 @@ export function DataSectionNew() {
           <CellCommunication />
           <CausalAnalysis />
           <StatisticalAnalysis />
-          <BonusPrediction />
         </div>
       </div>
     </section>

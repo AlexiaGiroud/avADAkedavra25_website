@@ -3,39 +3,33 @@ import { MessageSquare, Activity, Network, TrendingDown } from 'lucide-react';
 const findings = [
   {
     icon: MessageSquare,
-    title: 'Finding 1',
-    description: '💡 Write your key findings here',
+    title: 'Key Finding 1',
+    description: 'Our analysis revealed that across disease progression, immune cell interaction density is largely conserved, but communication is selectively restructured. While dominant signaling pairs persist, distinct cell–cell connections emerge, weaken, or disappear at different disease stages.',
     color: '#D61C8C',
   },
   {
     icon: Network,
-    title: 'Finding 2',
-    description: '💡 Write your key findings here',
+    title: 'Key Finding 2',
+    description: 'Aging has an impact on both COVID-19 severity and Expression of Critical Ligand Receptor Couples for severity',
     color: '#C07DFF',
   },
   {
     icon: Activity,
-    title: 'Finding 3',
-    description: '💡 Write your key findings here',
+    title: 'Key Finding 3',
+    description: 'It is possible to predict COVID-19 symptom severity with high accuracy using a Machine Learning Model. It clearly distinguishes healthy from diseased states, while intermediate severities are harder to separate, suggesting a gradual progression of immune dysfunction.',
     color: '#F29900',
-  },
-  {
-    icon: TrendingDown,
-    title: 'Finding 4',
-    description: '💡 Write your key findings here',
-    color: '#6811BA',
   },
 ];
 
 export function KeyFindings() {
   return (
-    <section className="px-6 py-16 bg-[#1A1A1A]">
+    <section className="px-6 py-16 bg-[#000000]">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl lg:text-6xl text-white uppercase tracking-tight mb-16" style={{ fontWeight: 900 }}>
           Key Findings
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {findings.map((finding, index) => {
             const Icon = finding.icon;
             return (
@@ -52,7 +46,7 @@ export function KeyFindings() {
                 <h3 className="text-xl text-white mb-3" style={{ color: finding.color }}>
                   {finding.title}
                 </h3>
-                <p className="text-gray-300 leading-relaxed">
+                <p className="text-gray-300 leading-relaxed" style={{ textAlign: 'justify' }}>
                   {finding.description}
                 </p>
               </div>

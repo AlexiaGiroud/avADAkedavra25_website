@@ -1,24 +1,14 @@
-import { useState } from "react";
-
 export function BonusPrediction() {
-  const [tab, setTab] = useState("matrix");
-
   return (
     <div className="space-y-8">
       {/* Section Title */}
-      <h3
-        className="text-3xl md:text-4xl text-white uppercase tracking-tight"
-        style={{ fontWeight: 700, color: "#C07DFF" }}
-      >
+      <h3 className="text-3xl md:text-4xl text-white uppercase tracking-tight" style={{ fontWeight: 700, color: '#C07DFF' }}>
         Bonus — Prediction
       </h3>
 
       {/* How did we do this? */}
       <div className="space-y-4">
-        <h4
-          className="text-2xl text-white"
-          style={{ fontWeight: 600, color: "#F29900" }}
-        >
+        <h4 className="text-2xl text-white" style={{ fontWeight: 600, color: '#F29900' }}>
           How did we do this?
         </h4>
         <div className="bg-[#2A2A2A] rounded-xl p-8 border-2 border-[#F29900]/30">
@@ -30,93 +20,19 @@ export function BonusPrediction() {
 
       {/* Show results */}
       <div className="space-y-4">
-        <h4
-          className="text-2xl text-white"
-          style={{ fontWeight: 600, color: "#D61C8C" }}
-        >
+        <h4 className="text-2xl text-white" style={{ fontWeight: 600, color: '#D61C8C' }}>
           Show results
         </h4>
-
-        {/* --- TABS --- */}
-        <div className="flex gap-4">
-          <button
-            onClick={() => setTab("matrix")}
-            className={`px-5 py-2 rounded-xl font-semibold transition ${
-              tab === "matrix"
-                ? "bg-[#D61C8C] text-white"
-                : "bg-[#2A2A2A] text-gray-300 hover:bg-[#3A3A3A]"
-            }`}
-          >
-            Confusion Matrix
-          </button>
-
-          <button
-            onClick={() => setTab("features")}
-            className={`px-5 py-2 rounded-xl font-semibold transition ${
-              tab === "features"
-                ? "bg-[#D61C8C] text-white"
-                : "bg-[#2A2A2A] text-gray-300 hover:bg-[#3A3A3A]"
-            }`}
-          >
-            Feature Importance
-          </button>
+        <div className="bg-[#2A2A2A] rounded-xl p-12 border-2 border-[#D61C8C]/30 flex items-center justify-center min-h-[400px]">
+          <p className="text-gray-400 text-xl text-center">
+            📊 Prediction results visualization
+          </p>
         </div>
-
-        {/* --- CONTENT BOX --- */}
-        <div className="bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#D61C8C]/30 min-h-[450px] flex justify-center items-center">
-          {tab === "matrix" && (
-            <iframe
-              src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/confusion_matrix_rf.html"
-              title="Confusion Matrix"
-              style={{ 
-                width: "900px",        // <--- adapte ici
-                maxWidth: "100%",      // <--- reste responsive
-                height: "670px",   // Adjust here the height to fit your HTML content
-                border: "none",
-                background: "transparent"
-              }}
-            ></iframe>
-          )}
-
-          {tab === "features" && (
-            <iframe
-              src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/feature_importance_rf.html"
-              title="Feature Importance"
-              style={{ 
-                width: "900px",        // <--- adapte ici
-                maxWidth: "100%",      // <--- reste responsive
-                height: "650px",   // Adjust here the height to fit your HTML content
-                border: "none",
-                background: "transparent"
-              }}
-            ></iframe>
-          )}
-        </div>
-
-        {/* Analysis */}
         <div className="bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#D61C8C]/30">
           <p className="text-gray-300 text-lg">
             📝 Analysis and interpretation of prediction results
           </p>
         </div>
-
-        {/* Widget section */}
-      <div className="space-y-6">
-
-        {/* Figure en taille originale, sans cadre */}
-        <iframe
-          src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/severity_predictor_java_widget.html"
-          className="w-full"
-          style={{ 
-            height: "430px",   // Ajuste si tu veux la taille exacte de ton HTML
-            border: "none",
-            background: "transparent"
-          }}
-          title="Fun widget"
-        />
-
-
-      </div>
       </div>
     </div>
   );
