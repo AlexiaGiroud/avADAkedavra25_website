@@ -367,7 +367,12 @@ export function CausalAnalysis() {
             src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/comprehensive_network_analysis.html"
             className="w-full h-[1100px] border-0 rounded-xl"
             title="Comprehensive Network Analysis"
-            style={{ background: 'transparent' }}
+            style={{ 
+                  width: "800px%",
+                  height: "1100px",   // Ajuste si tu veux la taille exacte de ton HTML
+                  border: "none",
+                  background: "transparent"
+                }}
           />
         </div>
 

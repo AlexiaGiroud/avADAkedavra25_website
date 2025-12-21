@@ -65,8 +65,6 @@ https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/exp_levels_receptors.html
 
 
-
-
 ## Machine Learning 
 
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/MachineLearning/confusion_matrix_rf.html
