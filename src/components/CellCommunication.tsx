@@ -79,7 +79,7 @@ export function CellCommunication() {
           {/* Figure - 75% */}
           <div className="lg:col-span-3">
             <iframe
-              src={`https://alexiagiroud.github.io/avADAkedavra25_website/figures/CPDB/network_LR/network_LR_${selectedNetwork === 'Healthy' ? 'Healthy%20' : selectedNetwork}.html`}
+              src={`https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/network_LR/network_LR_${selectedNetwork === 'Healthy' ? 'Healthy%20' : selectedNetwork}.html`}
               className="w-full h-[700px] border-0 rounded-xl"
               title={`${selectedNetwork} Network`}
               style={{ background: 'transparent' }}
@@ -102,7 +102,7 @@ export function CellCommunication() {
       <div className="space-y-6">
         <div className="flex justify-center">
           <iframe
-            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/interaction_load_per_cell_severity.html"
+            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/interaction_load_per_celltype_severity.html"
             className="w-full h-[600px] lg:h-[700px] border-0 rounded-xl"
             title="Interaction load per cell type"
             style={{ background: 'transparent' }}
@@ -149,7 +149,7 @@ export function CellCommunication() {
           {/* Bubble Plot */}
           <div className="lg:col-span-4">
             <iframe
-              src={`https://alexiagiroud.github.io/avADAkedavra25_website/figures/bubble_${severities.indexOf(selectedBubble) + 1}.%20${selectedBubble}.html`}
+              src={`https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/bubbles/bubble_${severities.indexOf(selectedBubble) + 1}.%20${selectedBubble}.html`}
               className="w-full h-[700px] border-0 rounded-xl"
               title={`Bubble plot ${selectedBubble}`}
               style={{ background: 'transparent' }}
@@ -192,7 +192,7 @@ export function CellCommunication() {
 
         <div className="flex justify-center">
           <iframe
-            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/top_interactions_all_severities_interactive.html"
+            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/top_interactions_all_severities_interactive.html"
             className="w-full h-[700px] border-0 rounded-xl"
             title="Interactive exploration"
             style={{ background: 'transparent' }}
@@ -219,7 +219,7 @@ export function CellCommunication() {
       <div className="space-y-6">
         <div className="flex justify-center">
           <iframe
-            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DEG_logFC_progression.html"
+            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/DEG_logFC_progression.html"
             className="w-full h-[700px] border-0 rounded-xl"
             title="DEG logFC progression"
             style={{ background: 'transparent' }}
