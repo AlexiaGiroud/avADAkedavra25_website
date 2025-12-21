@@ -38,6 +38,8 @@ https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/commun
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/stankey/Severe_sankey.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/stankey/Mild_sankey.html
 
+https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/top_interactions_CD14_CD16_N10.html
+
 ## Figures for CausalAnalysis.tsx
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/causal_dag_interactive.html
 
@@ -69,6 +71,5 @@ https://alexiagiroud.github.io/avADAkedavra25_website/figures/MachineLearning/fe
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/MachineLearning/severity_predictor_java_widget.html
 
 
-https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/top_interactions_CD14_CD16_N10.html
 
 

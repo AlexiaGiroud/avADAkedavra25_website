@@ -149,7 +149,7 @@ export function CellCommunication() {
           {/* Bubble Plot */}
           <div className="lg:col-span-4">
             <iframe
-              src={`https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/bubbles/bubble_${severities.indexOf(selectedBubble) + 1}.%20${selectedBubble}.html`}
+              src={`https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/bubbles/bubble_${selectedBubble === 'Healthy' ? 'Healthy%20' : selectedBubble}.html`}
               className="w-full h-[700px] border-0 rounded-xl"
               title={`Bubble plot ${selectedBubble}`}
               style={{ background: 'transparent' }}
@@ -168,7 +168,7 @@ export function CellCommunication() {
       <div className="space-y-6">
         <div className="flex justify-center">
           <iframe
-            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/top_interactions_CD14_CD16_N10.html"
+            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/top_interactions_CD14_CD16_N10.html"
             className="w-full h-[600px] lg:h-[700px] border-0 rounded-xl"
             title="Top interactions CD14 and CD16"
             style={{ background: 'transparent' }}
@@ -193,7 +193,7 @@ export function CellCommunication() {
         <div className="flex justify-center">
           <iframe
             src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/top_interactions_all_severities_interactive.html"
-            className="w-full h-[600px] border-0 rounded-xl"
+            className="w-full h-[700px] border-0 rounded-xl"
             title="Interactive exploration"
             style={{ background: 'transparent' }}
           />
@@ -303,9 +303,9 @@ export function CellCommunication() {
           {/* Sankey Plot */}
           <div className="lg:col-span-4">
             <iframe
-              src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/severities_sankey.html"
+              src={`https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/stankey/${selectedSankey}_sankey.html`}
               className="w-full h-[700px] border-0 rounded-xl"
-              title="Sankey diagram"
+              title={`${selectedSankey} Sankey diagram`}
               style={{ background: 'transparent' }}
             />
           </div>
