@@ -2,7 +2,7 @@ import { SingleCellDataset } from './SingleCellDataset';
 import { SeveritiesSection } from './SeveritiesSection';
 import { CellCommunication } from './CellCommunication';
 import { CausalAnalysis } from './CausalAnalysis';
-import { StatisticalAnalysis } from './StatisticalAnalysis';
+import { StatisticalAnalysis } from './MachineLearning';
 
 export function DataSectionNew() {
   return (
