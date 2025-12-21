@@ -36,8 +36,8 @@ export function SingleCellDataset() {
           <iframe
           src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/treemap_mode_mapped.html"
           style={{ 
-            width: "3000px",
-            height: "600px",   // Ajuste si tu veux la taille exacte de ton HTML
+            width: "100%",
+            height: "850px",   // Ajuste si tu veux la taille exacte de ton HTML
             border: "none",
             background: "transparent"
           }}
