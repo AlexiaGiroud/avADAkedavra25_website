@@ -2,6 +2,11 @@
 
 All interactive figure HTML files available under `docs/figures` (GitHub Pages URLs):
 
+https://alexiagiroud.github.io/avADAkedavra25_website/figures/Game/game_widget.html
+https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/treemap_mode_mapped.html
+https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/umap_complete_website.html
+https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/dotplot_gene_expression.html
+
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/lr_interactions_across_age_groups.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/cell_cell_across_age_groups.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/3_confounders/Smoker_worst_distribution.html
@@ -12,9 +17,9 @@ https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/3_confounders/Sex_worst_distribution.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/umap_website.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/stacked_celltype_by_status_plotly.html
-https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/umap_complete_website.html
-https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/treemap_mode_mapped.html
-https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/dotplot_gene_expression.html
+
+
+
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/top_interactions_all_severities_interactive.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/interaction_load_per_celltype_severity.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/DEG_logFC_progression.html
@@ -31,7 +36,6 @@ https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/commun
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/MachineLearning/severity_predictor_java_widget.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/MachineLearning/confusion_matrix_rf.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/MachineLearning/feature_importance_rf.html
-https://alexiagiroud.github.io/avADAkedavra25_website/figures/Game/game_widget.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/stankey/Critical_sankey.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/stankey/Moderate_sankey.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/network_LR/network_LR_Severe.html

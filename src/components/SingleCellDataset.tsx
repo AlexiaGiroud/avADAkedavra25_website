@@ -34,7 +34,7 @@ export function SingleCellDataset() {
       <div className="space-y-6">
         <div className="flex justify-center">
           <iframe
-            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/treemap_mode_mapped.html"
+            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/treemap_mode_mapped.html"
             className="w-full h-[600px] lg:h-[700px] border-0 rounded-xl"
             title="Treemap of Cell Proportions"
             style={{ background: 'transparent' }}
@@ -51,7 +51,7 @@ export function SingleCellDataset() {
             <div className="bg-gradient-to-br from-[#D61C8C]/30 via-[#C07DFF]/30 to-[#FFC9E9]/30 rounded-3xl p-2">
               <div className="bg-[#1A1A1A] rounded-2xl overflow-hidden">
                 <iframe 
-                  src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/umap_complete_website.html" 
+                  src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/umap_complete_website.html" 
                   className="w-full h-[850px] border-0"
                   title="UMAP colored by initial clustering"
                   style={{ background: 'transparent' }}
@@ -81,7 +81,7 @@ export function SingleCellDataset() {
       <div className="space-y-6">
         <div className="flex justify-center">
           <iframe
-            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/dotplot_gene_expression.html"
+            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/dotplot_gene_expression.html"
             className="w-full h-[600px] lg:h-[700px] border-0 rounded-xl"
             title="Dotplot of Gene Expression"
             style={{ background: 'transparent' }}
