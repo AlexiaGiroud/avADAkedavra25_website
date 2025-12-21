@@ -59,8 +59,12 @@ https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal
 
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/heatmap_Critical.html
 
+https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/comprehensive_network_analysis.html
+
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/exp_levels_ligands.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/exp_levels_receptors.html
+
+
 
 
 ## Machine Learning 
