@@ -5,7 +5,6 @@ export function Conclusion() {
         <h2 className="text-4xl md:text-5xl lg:text-6xl text-white uppercase tracking-tight mb-16" style={{ fontWeight: 900 }}>
           Conclusion
         </h2>
-        <div className="bg-[#2A2A2A] rounded-xl p-8 border-2 border-[#C07DFF]/30">
           <div className="text-gray-300 text-lg leading-relaxed space-y-6" style={{ textAlign: 'justify' }}>
             <p>
               Throughout this project, we wanted to answer a central question: <span style={{ color: '#D61C8C', fontWeight: 700 }}>why does COVID-19 affect individuals so differently?</span> By combining single-cell transcriptomics, cell-cell communication analysis, and causal reasoning, we show that disease severity is not driven by a single factor, but rather emerges from a <span style={{ color: '#F29900', fontWeight: 700 }}>complex reorganization of the immune system</span>. Furthermore, we show that <span style={{ color: '#C07DFF', fontWeight: 700 }}>severity can be predicted from a sample with high accuracy</span>.
@@ -32,7 +31,6 @@ export function Conclusion() {
             </p>
           </div>
         </div>
-      </div>
     </section>
   );
 }
