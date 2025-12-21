@@ -7,6 +7,7 @@ const team = [
     cell: 'Dendritic Cell',
     color: '#F29900',
     description: 'Presenting information to activate understanding',
+    github: 'https://github.com/AlexiaGiroud',
   },
   {
     name: 'Nafi Drame',
@@ -14,6 +15,7 @@ const team = [
     cell: 'NK Cell',
     color: '#FFC9E9',
     description: 'Eliminating confounders, targeting true effects',
+    github: 'https://github.com/NafiAnnaD',
   },
   {
     name: 'Tessnim Bechrifa',
@@ -21,6 +23,7 @@ const team = [
     cell: 'T Cell',
     color: '#C07DFF',
     description: 'Coordinating cellular communication analysis',
+    github: 'https://github.com/tessnim101',
   },
   {
     name: 'Cheima Touhiri',
@@ -28,6 +31,7 @@ const team = [
     cell: 'B Cell',
     color: '#E5C9FF',
     description: 'Recognizing interaction patterns',
+    github: 'https://github.com/cheimatouihri',
   },
   {
     name: 'Zoé Vogler',
@@ -35,6 +39,7 @@ const team = [
     cell: 'Macrophage',
     color: '#D61C8C',
     description: 'Engulfing complexity, revealing insights',
+    github: 'https://github.com/ZoeVogler',
   },
 ];
 
@@ -154,9 +159,11 @@ export function Team() {
               
               <div className="mt-4 flex justify-center">
                 <a 
-                  href="#" 
+                  href={member.github} 
                   className="text-gray-400 hover:text-white transition-colors"
                   aria-label={`${member.name} GitHub`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <Github size={30} />
                 </a>
