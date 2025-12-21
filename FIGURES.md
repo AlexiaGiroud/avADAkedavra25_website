@@ -67,8 +67,6 @@ https://alexiagiroud.github.io/avADAkedavra25_website/figures/MachineLearning/fe
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/MachineLearning/severity_predictor_java_widget.html
 
 
-
-
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/top_interactions_CD14_CD16_N10.html
 
 
