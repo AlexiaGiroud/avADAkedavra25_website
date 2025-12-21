@@ -2,10 +2,17 @@
 
 All interactive figure HTML files available under `docs/figures` (GitHub Pages URLs):
 
+Figures for SingleCellDataset.tsx
+
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/Game/game_widget.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/treemap_mode_mapped.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/umap_complete_website.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/dotplot_gene_expression.html
+
+Figures for SeveritiesSection.tsx
+https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/umap_website.html
+https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/stacked_celltype_by_status_plotly.html
+
 
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/lr_interactions_across_age_groups.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/cell_cell_across_age_groups.html
@@ -15,8 +22,8 @@ https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/3_confounders/Sex_day_distribution.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/3_confounders/Age_interval_day_distribution.html
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/3_confounders/Sex_worst_distribution.html
-https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/umap_website.html
-https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/stacked_celltype_by_status_plotly.html
+
+
 
 
 

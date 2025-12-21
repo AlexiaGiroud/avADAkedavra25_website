@@ -34,30 +34,36 @@ export function SingleCellDataset() {
       <div className="space-y-6">
         <div className="flex justify-center">
           <iframe
-            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/treemap_mode_mapped.html"
-            className="w-full h-[600px] lg:h-[700px] border-0 rounded-xl"
-            title="Treemap of Cell Proportions"
-            style={{ background: 'transparent' }}
-          />
-        </div>
+          src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/treemap_mode_mapped.html"
+          style={{ 
+            width: "100%",
+            height: "600px",   // Ajuste si tu veux la taille exacte de ton HTML
+            border: "none",
+            background: "transparent"
+          }}
+          title="Treemap: mode mapped"
+        />
       </div>
-
+      </div>
+      
       {/* UMAP colored by initial clustering - Title removed */}
       <div className="space-y-6">
         {/* Changed layout to 60% Figure - 40% Text */}
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
           {/* Figure - 60% */}
           <div className="lg:col-span-3">
-            <div className="bg-gradient-to-br from-[#D61C8C]/30 via-[#C07DFF]/30 to-[#FFC9E9]/30 rounded-3xl p-2">
               <div className="bg-[#1A1A1A] rounded-2xl overflow-hidden">
                 <iframe 
                   src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/umap_complete_website.html" 
-                  className="w-full h-[850px] border-0"
-                  title="UMAP colored by initial clustering"
-                  style={{ background: 'transparent' }}
+                  style={{ 
+                    width: "100%",
+                    height: "850px",   // Ajuste si tu veux la taille exacte de ton HTML
+                    border: "none",
+                    background: "transparent"
+                  }}
+                  title="UMAP of all the cells in the dataset"
                 />
               </div>
-            </div>
           </div>
 
           {/* Text - 40% */}
@@ -82,9 +88,13 @@ export function SingleCellDataset() {
         <div className="flex justify-center">
           <iframe
             src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/dotplot_gene_expression.html"
-            className="w-full h-[600px] lg:h-[700px] border-0 rounded-xl"
+            style={{ 
+              width: "100%",
+              height: "820px",   // Ajuste si tu veux la taille exacte de ton HTML
+              border: "none",
+              background: "transparent"
+            }}
             title="Dotplot of Gene Expression"
-            style={{ background: 'transparent' }}
           />
         </div>
 

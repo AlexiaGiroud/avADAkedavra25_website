@@ -27,7 +27,7 @@ export function SeveritiesSection() {
       <div className="space-y-6">
         <div className="flex justify-center">
           <iframe
-            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/umap_website.html"
+            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/umap_website.html"
             className="w-full h-[600px] lg:h-[700px] border-0 rounded-xl"
             title="UMAP per Severity"
             style={{ background: 'transparent' }}
@@ -48,10 +48,14 @@ export function SeveritiesSection() {
       <div className="space-y-6">
         <div className="flex justify-center">
           <iframe
-            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/stacked_celltype_by_status_plotly.html"
-            className="w-full h-[600px] lg:h-[700px] border-0 rounded-xl"
+            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/stacked_celltype_by_status_plotly.html"
+            style={{ 
+              width: "100%",
+              height: "700px",
+              border: "none",
+              background: "transparent"
+            }}
             title="Cell-type Proportions"
-            style={{ background: 'transparent' }}
           />
         </div>
 
