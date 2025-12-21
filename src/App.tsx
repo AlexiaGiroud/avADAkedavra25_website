@@ -1,5 +1,4 @@
 import { Hero } from "./components/Hero";
-import { CellDistributionChart } from "./components/CellDistributionChart";
 import { KeyFindings } from "./components/KeyFindings";
 import { MethodologyInteractive } from "./components/MethodologyInteractive";
 import { Links } from "./components/Links";
