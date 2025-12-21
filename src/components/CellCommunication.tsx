@@ -327,7 +327,7 @@ export function CellCommunication() {
           <div className="lg:col-span-4">
             <iframe
               src={`https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/stankey/${selectedSankey}_sankey.html`}
-              className="w-full h-[700px] border-0 rounded-xl"
+              className="w-full h-[600px] border-0 rounded-xl"
               title={`${selectedSankey} Sankey diagram`}
               style={{ background: 'transparent' }}
             />
