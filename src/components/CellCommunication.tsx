@@ -258,13 +258,36 @@ export function CellCommunication() {
               </tr>
             </thead>
             <tbody style={{ backgroundColor: '#ffffff' }}>
-              {[...Array(6)].map((_, i) => (
-                <tr key={i} className="border-t-2 border-gray-300">
-                  <td className="p-4 text-gray-700 border-r-2 border-gray-300">📝 Complete here</td>
-                  <td className="p-4 text-gray-700 border-r-2 border-gray-300">📝 Complete here</td>
-                  <td className="p-4 text-gray-700">📝 Complete here</td>
-                </tr>
-              ))}
+              <tr className="border-t-2 border-gray-300">
+                <td className="p-4 text-gray-700 border-r-2 border-gray-300">Early</td>
+                <td className="p-4 text-gray-700 border-r-2 border-gray-300">CD86 → CD28/CTLA4</td>
+                <td className="p-4 text-gray-700"><span style={{ fontWeight: 600 }}>T-cell Co-stimulation/Inhibition:</span> The initial "go/no-go" signal for adaptive immunity.</td>
+              </tr>
+              <tr className="border-t-2 border-gray-300">
+                <td className="p-4 text-gray-700 border-r-2 border-gray-300">Early/Mild</td>
+                <td className="p-4 text-gray-700 border-r-2 border-gray-300">SIRPG → CD47</td>
+                <td className="p-4 text-gray-700"><span style={{ fontWeight: 600 }}>Immune Checkpoint:</span> Regulation of "don't eat me" signals and leukocyte adhesion.</td>
+              </tr>
+              <tr className="border-t-2 border-gray-300">
+                <td className="p-4 text-gray-700 border-r-2 border-gray-300">Intermediate</td>
+                <td className="p-4 text-gray-700 border-r-2 border-gray-300">CCL3 → CCR1</td>
+                <td className="p-4 text-gray-700"><span style={{ fontWeight: 600 }}>Leukocyte Recruitment:</span> Active trafficking of monocytes and neutrophils to injury sites.</td>
+              </tr>
+              <tr className="border-t-2 border-gray-300">
+                <td className="p-4 text-gray-700 border-r-2 border-gray-300">Intermediate</td>
+                <td className="p-4 text-gray-700 border-r-2 border-gray-300">DPP4 → CXCL2</td>
+                <td className="p-4 text-gray-700"><span style={{ fontWeight: 600 }}>Inflammatory Amplification:</span> Enzyme-mediated regulation of chemokines, escalating the response.</td>
+              </tr>
+              <tr className="border-t-2 border-gray-300">
+                <td className="p-4 text-gray-700 border-r-2 border-gray-300">Late</td>
+                <td className="p-4 text-gray-700 border-r-2 border-gray-300">ESAM → ESAM</td>
+                <td className="p-4 text-gray-700"><span style={{ fontWeight: 600 }}>Vascular Integrity:</span> Endothelial cell-to-cell adhesion and regulation of vascular permeability.</td>
+              </tr>
+              <tr className="border-t-2 border-gray-300">
+                <td className="p-4 text-gray-700 border-r-2 border-gray-300">Late (Suppressed)</td>
+                <td className="p-4 text-gray-700 border-r-2 border-gray-300">ANXA1 → FPR1/FPR2</td>
+                <td className="p-4 text-gray-700"><span style={{ fontWeight: 600 }}>Inflammatory Resolution:</span> The "braking" system meant to clear inflammation and begin repair.</td>
+              </tr>
             </tbody>
           </table>
         </div>
