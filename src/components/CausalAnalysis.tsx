@@ -31,19 +31,10 @@ export function CausalAnalysis() {
 
       {/* DAG */}
       <div className="space-y-6">
-                    
-        <div className="space-y-6">
-          <div className="flex justify-center">
-            <iframe
-              src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/causal_dag_interactive.html"
-              style={{ 
-                width: "100%",
-                height: "850px",   // Ajuste si tu veux la taille exacte de ton HTML
-                border: "none",
-                background: "transparent"
-              }}
-            />
-          </div>
+        <div className="bg-[#2A2A2A] rounded-xl p-12 border-2 border-[#C07DFF]/30 flex items-center justify-center min-h-[400px]">
+          <p className="text-gray-400 text-xl text-center">
+            📊 Place for the DAG with the confounders of the system
+          </p>
         </div>
 
         <div className="bg-[#2A2A2A] rounded-xl p-8 border-2 border-[#C07DFF]/30">
@@ -101,19 +92,11 @@ export function CausalAnalysis() {
                   <p className="text-gray-400 text-center mb-4" style={{ fontWeight: 600 }}>
                     Status on Day of Collection
                   </p>
-                    <div className="space-y-6">
-                      <div className="flex justify-center">
-                        <iframe
-                        src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/3_confounders/Age_interval_day_distribution.html"
-                        style={{ 
-                          width: "100%",
-                          height: "600px",   // Ajuste si tu veux la taille exacte de ton HTML
-                          border: "none",
-                          background: "transparent"
-                        }}
-                      />
-                    </div>
-                    </div>
+                  <div className="bg-[#2A2A2A] rounded-xl p-12 border-2 border-[#D61C8C]/30 flex items-center justify-center min-h-[400px]">
+                    <p className="text-gray-400 text-xl text-center">
+                      📊 COVID-19 symptom severity in function of Age - Severity: status on day of collection
+                    </p>
+                  </div>
                 </div>
               </div>
 
@@ -122,19 +105,11 @@ export function CausalAnalysis() {
                   <p className="text-gray-400 text-center mb-4" style={{ fontWeight: 600 }}>
                     Worst Clinical Status
                   </p>
-                    <div className="space-y-6">
-                      <div className="flex justify-center">
-                        <iframe
-                        src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/3_confounders/Age_interval_worst_distribution.html"
-                        style={{ 
-                          width: "100%",
-                          height: "600px",   // Ajuste si tu veux la taille exacte de ton HTML
-                          border: "none",
-                          background: "transparent"
-                        }}
-                      />
-                    </div>
-                    </div>
+                  <div className="bg-[#2A2A2A] rounded-xl p-12 border-2 border-[#D61C8C]/30 flex items-center justify-center min-h-[400px]">
+                    <p className="text-gray-400 text-xl text-center">
+                      📊 Histogram of COVID-19 symptom severity in function of Age - Severity: Worst Clinical Status (death, included in severe)
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -156,19 +131,11 @@ export function CausalAnalysis() {
                   <p className="text-gray-400 text-center mb-4" style={{ fontWeight: 600 }}>
                     Status on Day of Collection
                   </p>
-                    <div className="space-y-6">
-                      <div className="flex justify-center">
-                        <iframe
-                        src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/3_confounders/Sex_day_distribution.html"
-                        style={{ 
-                          width: "100%",
-                          height: "600px",   // Ajuste si tu veux la taille exacte de ton HTML
-                          border: "none",
-                          background: "transparent"
-                        }}
-                      />
-                    </div>
-                    </div>
+                  <div className="bg-[#2A2A2A] rounded-xl p-12 border-2 border-[#C07DFF]/30 flex items-center justify-center min-h-[400px]">
+                    <p className="text-gray-400 text-xl text-center">
+                      📊 COVID-19 symptom severity in function of Sex - Severity: status on day of collection
+                    </p>
+                  </div>
                 </div>
               </div>
 
@@ -177,19 +144,11 @@ export function CausalAnalysis() {
                   <p className="text-gray-400 text-center mb-4" style={{ fontWeight: 600 }}>
                     Worst Clinical Status
                   </p>
-                    <div className="space-y-6">
-                      <div className="flex justify-center">
-                        <iframe
-                        src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/3_confounders/Sex_worst_distribution.html"
-                        style={{ 
-                          width: "100%",
-                          height: "600px",   // Ajuste si tu veux la taille exacte de ton HTML
-                          border: "none",
-                          background: "transparent"
-                        }}
-                      />
-                    </div>
-                    </div>
+                  <div className="bg-[#2A2A2A] rounded-xl p-12 border-2 border-[#C07DFF]/30 flex items-center justify-center min-h-[400px]">
+                    <p className="text-gray-400 text-xl text-center">
+                      📊 Histogram of COVID-19 symptom severity in function of Sex - Severity: Worst Clinical Status (death, included in severe)
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -211,19 +170,11 @@ export function CausalAnalysis() {
                   <p className="text-gray-400 text-center mb-4" style={{ fontWeight: 600 }}>
                     Status on Day of Collection
                   </p>
-                    <div className="space-y-6">
-                      <div className="flex justify-center">
-                        <iframe
-                        src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/3_confounders/Smoker_day_distribution.html"
-                        style={{ 
-                          width: "100%",
-                          height: "600px",   // Ajuste si tu veux la taille exacte de ton HTML
-                          border: "none",
-                          background: "transparent"
-                        }}
-                      />
-                    </div>
-                    </div>
+                  <div className="bg-[#2A2A2A] rounded-xl p-12 border-2 border-[#F29900]/30 flex items-center justify-center min-h-[400px]">
+                    <p className="text-gray-400 text-xl text-center">
+                      📊 COVID-19 symptom severity in function of Smoking status - Severity: status on day of collection
+                    </p>
+                  </div>
                 </div>
               </div>
 
@@ -232,19 +183,11 @@ export function CausalAnalysis() {
                   <p className="text-gray-400 text-center mb-4" style={{ fontWeight: 600 }}>
                     Worst Clinical Status
                   </p>
-                    <div className="space-y-6">
-                      <div className="flex justify-center">
-                        <iframe
-                        src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/3_confounders/Smoker_worst_distribution.html"
-                        style={{ 
-                          width: "100%",
-                          height: "600px",   // Ajuste si tu veux la taille exacte de ton HTML
-                          border: "none",
-                          background: "transparent"
-                        }}
-                      />
-                    </div>
-                    </div>
+                  <div className="bg-[#2A2A2A] rounded-xl p-12 border-2 border-[#F29900]/30 flex items-center justify-center min-h-[400px]">
+                    <p className="text-gray-400 text-xl text-center">
+                      📊 Histogram of COVID-19 symptom severity in function of Smoking status - Severity: Worst Clinical Status (death, included in severe)
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -279,7 +222,7 @@ export function CausalAnalysis() {
         <div className="grid grid-cols-1 lg:grid-cols-10 gap-6">
           <div className="lg:col-span-7">
             <iframe
-              src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/logistic_regression_forest_plot.html"
+              src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/logistic_regression_forest_plot.html"
               className="w-full h-[600px] border-0 rounded-xl"
               title="Logistic Regression Forest Plot"
               style={{ background: 'transparent' }}
@@ -313,19 +256,11 @@ export function CausalAnalysis() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Left side: Figure 1 & text */}
         <div className="space-y-4">
-          <div className="space-y-6">
-            <div className="flex justify-center">
-              <iframe
-                src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/cell_cell_across_age_groups.html"
-                style={{ 
-                  width: "100%",
-                  height: "750px",   // Ajuste si tu veux la taille exacte de ton HTML
-                  border: "none",
-                  background: "transparent"
-                }}
-              />
-            </div>
-            </div>
+          <div className="bg-[#2A2A2A] rounded-xl p-12 border-2 border-[#C07DFF]/30 flex items-center justify-center min-h-[400px]">
+            <p className="text-gray-400 text-xl text-center">
+              📊 Cell-Cell Communication Landscape Across Age Groups
+            </p>
+          </div>
           <div className="bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30 flex items-center" style={{ minHeight: '120px' }}>
             <p className="text-gray-300 leading-relaxed" style={{ textAlign: 'justify' }}>
               We can see that old patients tends to have a higher number of interactions and that they tend to have a higher strength
@@ -335,19 +270,11 @@ export function CausalAnalysis() {
 
         {/* Right side: Figure 2 & text */}
         <div className="space-y-4">
-          <div className="space-y-6">
-            <div className="flex justify-center">
-              <iframe
-                src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/lr_interactions_across_age_groups.html"
-                style={{ 
-                  width: "100%",
-                  height: "750px",   // Ajuste si tu veux la taille exacte de ton HTML
-                  border: "none",
-                  background: "transparent"
-                }}
-              />
-            </div>
-            </div>
+          <div className="bg-[#2A2A2A] rounded-xl p-12 border-2 border-[#C07DFF]/30 flex items-center justify-center min-h-[400px]">
+            <p className="text-gray-400 text-xl text-center">
+              📊 Ligand-Receptor Interaction across Age Groups
+            </p>
+          </div>
           <div className="bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30 flex items-center" style={{ minHeight: '120px' }}>
             <p className="text-gray-300 text-sm leading-relaxed" style={{ textAlign: 'justify' }}>
               Scatter plots showing ligand expression versus receptor expression for select ligand-receptor pairs across patient age groups (Young: orange; Middle: pink; Old: purple). Most communication pathways remain stable between young and old patients. However, specific interactions like PTPRC-CD22 shift significantly with age, suggesting that while the immune system's general wiring stays consistent, breakdowns in these few specific signals might explain why older individuals often face more severe COVID-19 outcomes.
@@ -377,19 +304,11 @@ export function CausalAnalysis() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Left side: Ligands */}
         <div className="space-y-4">
-          <div className="space-y-6">
-            <div className="flex justify-center">
-              <iframe
-                src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/gene_exp_ligands.html"
-                style={{ 
-                  width: "100%",
-                  height: "750px",   // Ajuste si tu veux la taille exacte de ton HTML
-                  border: "none",
-                  background: "transparent"
-                }}
-              />
-            </div>
-            </div>
+          <div className="bg-[#2A2A2A] rounded-xl p-12 border-2 border-[#C07DFF]/30 flex items-center justify-center min-h-[400px]">
+            <p className="text-gray-400 text-xl text-center">
+              📊 Gene expression rates across age groups (Young, Middle, Old) for ligands identified as having top interaction scores in severe COVID-19 patients by CellPhoneDB analysis
+            </p>
+          </div>
           <div className="bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30">
             <p className="text-gray-300 text-sm leading-relaxed" style={{ textAlign: 'justify' }}>
               Bars represent the percentage of cells with high expression (mean expression ≥ 1.0) for each ligand within each age group. Sample sizes (n) indicate the total number of cells analyzed per age group. P-values from chi-square tests are displayed above each plot to assess whether gene expression varies significantly with age independently of disease severity. Bar colors indicate statistical significance: purple (p &lt; 0.001, highly significant age effect), pink (p &lt; 0.01, very significant), and yellow (p ≥ 0.05, not significant). CCL5, ANXA1, TNF, TNFRSF1A and CD320 show significant age-dependent expression patterns (p &lt; 0.05), while CD99 demonstrates non-significant age effect (p = 1.000, yellow). These findings suggest that age modulates the expression of key ligands involved in cell-cell communication in severe COVID-19, potentially confounding severity-associated expression changes. Analysis performed on stratified severe COVID-19 cases only to isolate age effects from disease severity effects.
@@ -399,19 +318,11 @@ export function CausalAnalysis() {
 
         {/* Right side: Receptors */}
         <div className="space-y-4">
-          <div className="space-y-6">
-            <div className="flex justify-center">
-              <iframe
-                src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/gene_exp_receptors.html"
-                style={{ 
-                  width: "100%",
-                  height: "750px",   // Ajuste si tu veux la taille exacte de ton HTML
-                  border: "none",
-                  background: "transparent"
-                }}
-              />
-            </div>
-            </div>
+          <div className="bg-[#2A2A2A] rounded-xl p-12 border-2 border-[#C07DFF]/30 flex items-center justify-center min-h-[400px]">
+            <p className="text-gray-400 text-xl text-center">
+              📊 Gene expression rates across age groups (Young, Middle, Old) for Receptors identified as having top interaction scores in severe COVID-19 patients by CellPhoneDB analysis
+            </p>
+          </div>
           <div className="bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30">
             <p className="text-gray-300 text-sm leading-relaxed" style={{ textAlign: 'justify' }}>
               Bars represent the percentage of cells with high expression (mean expression ≥ 1.0) for each ligand within each age group. Sample sizes (n) indicate the total number of cells analyzed per age group. P-values from chi-square tests are displayed above each plot to assess whether gene expression varies significantly with age independently of disease severity. Bar colors indicate statistical significance: purple (p &lt; 0.001, highly significant age effect), pink (p &lt; 0.01, very significant), and yellow (p ≥ 0.05, not significant). CCR1, PILRA, FPR1, JAML and FPR2 show significant age-dependent expression patterns. These findings suggest that age modulates the expression of key ligands involved in cell-cell communication in severe COVID-19, potentially confounding severity-associated expression changes. Analysis performed on stratified severe COVID-19 cases only to isolate age effects from disease severity effects.

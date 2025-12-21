@@ -49,13 +49,9 @@ export function SeveritiesSection() {
         <div className="flex justify-center">
           <iframe
             src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/stacked_celltype_by_status_plotly.html"
-            style={{ 
-              width: "100%",
-              height: "700px",
-              border: "none",
-              background: "transparent"
-            }}
+            className="w-full h-[600px] lg:h-[700px] border-0 rounded-xl"
             title="Cell-type Proportions"
+            style={{ background: 'transparent' }}
           />
         </div>
 
