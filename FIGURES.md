@@ -59,13 +59,16 @@ https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/gene_exp_receptors.html
 
 
+## Machine Learning 
+
+https://alexiagiroud.github.io/avADAkedavra25_website/figures/MachineLearning/confusion_matrix_rf.html
+https://alexiagiroud.github.io/avADAkedavra25_website/figures/MachineLearning/feature_importance_rf.html
+
+https://alexiagiroud.github.io/avADAkedavra25_website/figures/MachineLearning/severity_predictor_java_widget.html
 
 
 
 
 https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/communication/top_interactions_CD14_CD16_N10.html
 
-https://alexiagiroud.github.io/avADAkedavra25_website/figures/MachineLearning/severity_predictor_java_widget.html
-https://alexiagiroud.github.io/avADAkedavra25_website/figures/MachineLearning/confusion_matrix_rf.html
-https://alexiagiroud.github.io/avADAkedavra25_website/figures/MachineLearning/feature_importance_rf.html
 

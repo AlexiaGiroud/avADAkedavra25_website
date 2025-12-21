@@ -1,4 +1,4 @@
-export function StatisticalAnalysis() {
+export function MachineLearning() {
   return (
     <div className="space-y-16">
       {/* Subsection Title */}
@@ -29,7 +29,7 @@ export function StatisticalAnalysis() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div className="flex justify-center">
             <iframe
-              src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/confusion_matrix_rf.html"
+              src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/MachineLearning/confusion_matrix_rf.html"
               className="w-full h-[600px] border-0 rounded-xl"
               title="Confusion Matrix"
               style={{ background: 'transparent' }}
@@ -38,7 +38,7 @@ export function StatisticalAnalysis() {
 
           <div className="flex justify-center">
             <iframe
-              src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/feature_importance_rf.html"
+              src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/MachineLearning/feature_importance_rf.html"
               className="w-full h-[600px] border-0 rounded-xl"
               title="Feature Importance"
               style={{ background: 'transparent' }}
@@ -76,7 +76,7 @@ export function StatisticalAnalysis() {
       <div className="space-y-6">
         <div className="flex justify-center">
           <iframe
-            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/severity_predictor_java_widget.html"
+            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/MachineLearning/severity_predictor_java_widget.html"
             className="w-full h-[700px] border-0 rounded-xl"
             title="Severity Predictor Widget"
             style={{ background: 'transparent' }}

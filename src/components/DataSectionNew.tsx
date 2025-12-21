@@ -2,7 +2,7 @@ import { SingleCellDataset } from './SingleCellDataset';
 import { SeveritiesSection } from './SeveritiesSection';
 import { CellCommunication } from './CellCommunication';
 import { CausalAnalysis } from './CausalAnalysis';
-import { StatisticalAnalysis } from './StatisticalAnalysis';
+import { MachineLearning } from './MachineLearning';
 
 export function DataSectionNew() {
   return (
@@ -19,7 +19,7 @@ export function DataSectionNew() {
           <SeveritiesSection />
           <CellCommunication />
           <CausalAnalysis />
-          <StatisticalAnalysis />
+          <MachineLearning />
         </div>
       </div>
     </section>
