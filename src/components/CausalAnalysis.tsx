@@ -353,11 +353,40 @@ export function CausalAnalysis() {
         </div>
       </div>
 
-      {/* Heatmap Top Interactions - Critical */}
+      {/* Gene Expression Rates - Ligand and Receptor subsections */}      
       <div className="bg-[#2A2A2A] rounded-xl p-8 border-2 border-[#C07DFF]/30">
         <p className="text-gray-300 text-lg leading-relaxed" style={{ textAlign: 'justify' }}>
           Top interaction pairs are ANXA1-FPR1, ANXA1-FPR, CD99-PILRA, CCL5-CCR1, CD320-JAML for critical patients. The vast majority of Ligand Receptor Interactions don't depend on the age of the patients. However some Ligand-Receptor interactions such as ANXA1-FPR1 or PTPRC-CD22 are greatly affected by the age of the patients.
         </p>
+      </div>
+
+      {/* Comprehensive Network Analysis */}
+      <div className="grid grid-cols-1 lg:grid-cols-10 gap-6">
+        <div className="lg:col-span-7">
+          <iframe
+            src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/causal_analysis/comprehensive_network_analysis.html"
+            className="w-full h-[1100px] border-0 rounded-xl"
+            title="Comprehensive Network Analysis"
+            style={{ background: 'transparent' }}
+          />
+        </div>
+
+        <div className="lg:col-span-3 bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30 flex items-center">
+          <div className="space-y-4">
+            <p className="text-gray-300 leading-relaxed" style={{ textAlign: 'justify' }}>
+              Here we ask ourselves a critical question: Are older patients overrepresented in severe cases because of an altered interaction network intrinsic to old patients, or does severe disease itself drive this alternative network architecture?
+            </p>
+            <p className="text-gray-300 leading-relaxed" style={{ textAlign: 'justify' }}>
+              To answer this question we compared the interaction network of critical and severe young patients compared to the interaction network of critical and severe old patients.
+            </p>
+            <p className="text-gray-300 leading-relaxed" style={{ textAlign: 'justify' }}>
+              Among old severe patients, a pattern emerges: CD16+ monocytes establish high-strength interactions with all cell types, but communication between other cell types vanishes. The network becomes hub-and-spoke rather than interconnected. CD14+ hubs possess overall fewer interactions in older patients, but the remaining interactions are significantly stronger, suggesting compensatory hyperactivation of remaining pathways.
+            </p>
+            <p className="text-gray-300 leading-relaxed" style={{ textAlign: 'justify' }}>
+              The most striking aspect is the loss of intercellular coordination in older patients. While CD16+ cells maintain high-strength communication with every other cell type, the cells themselves don't communicate effectively with each other. This creates a centralized, rigid network architecture rather than the distributed, flexible network seen in younger patients.
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* Gene Expression Rates - Ligand and Receptor subsections */}
