@@ -37,7 +37,7 @@ export function SingleCellDataset() {
           src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/DataSection/exploration/treemap_mode_mapped.html"
           style={{ 
             width: "100%",
-            height: "650px",   // Ajuste si tu veux la taille exacte de ton HTML
+            height: "620px",   // Ajuste si tu veux la taille exacte de ton HTML
             border: "none",
             background: "transparent"
           }}
