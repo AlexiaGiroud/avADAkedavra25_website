@@ -25,7 +25,7 @@ export function GameSection() {
       {/* Game Widget */}
       <div className="w-full">
         <iframe
-          src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/game_widget.html"
+          src="https://alexiagiroud.github.io/avADAkedavra25_website/figures/Game/game_widget.html"
           className="w-full h-[730px] border-0 rounded-xl"
           title="Severity Guesser Game"
           style={{ background: 'transparent' }}
