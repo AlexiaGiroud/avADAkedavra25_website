@@ -325,7 +325,7 @@ export function CausalAnalysis() {
             </div>
           <div className="bg-[#2A2A2A] rounded-xl p-6 border-2 border-[#C07DFF]/30 flex items-center" style={{ minHeight: '120px' }}>
             <p className="text-gray-300 leading-relaxed" style={{ textAlign: 'justify' }}>
-              We can see that old patients tends to have a higher number of interactions and that they tend to have a higher strength
+            The data reveals a pattern: older patients exhibit significantly more cell-cell interactions with greater communication strength compared to younger patients. This finding challenges a common assumption about COVID-19 severity. Rather than showing immunodeficiency, a weakened immune response, older patients display immune hyperactivation. The reason why they are overepresented in severe case must be due to their cell-cell communication.           
             </p>
           </div>
         </div>
