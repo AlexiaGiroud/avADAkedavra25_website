@@ -53,8 +53,8 @@
     },
     build: {
       target: 'esnext',
-      // Default outDir is `dist`. When deploying to GitHub Pages set GH_PAGES=true
-      outDir: process.env.GH_PAGES === 'true' ? 'docs' : 'dist',
+      // Always build into `docs` and not `dist`.
+      outDir: 'docs',
       sourcemap: false,
       manifest: false,
       emptyOutDir: true,
